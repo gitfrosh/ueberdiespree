@@ -14,15 +14,19 @@
     <!-- Custom fonts -->
     <link href="https://fonts.googleapis.com/css?family=Oswald|Vollkorn" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color">
+    <link rel="shortcut icon" type="image/png" href="images/ue-icons/icon-96x96.png"/>
 </head>
 
 <body>
     <!-- Bootstrap core JavaScript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
+    <script>if ('serviceWorker' in navigator) {
+      // sw.js can literally be empty, but must exist
+      navigator.serviceWorker.register('sw.js');
+    }</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/mithril/0.1.32/mithril.js"></script>
-
     <script>
         $(document).ready(function() {
             $(document).ready(function() {
@@ -109,7 +113,7 @@
 		<div class="col-md-12">
 
 			<h2 id="h2">What I do</h2>
-      <p class="mypar">In 2017 I finished a Master's degree in computer science from <a target="_blank" class="fancy-link" href="http://osmi.th-brandenburg.de/">Brandenburg University of Applied Sciences</a> and have project experiences as a freelance web developer. For several years I have been working as a content and social media manager but have moved on to the programmer's world. Annually, I give talks for beginners in web development at <a target="_blank" class="fancy-link" href="https://www.informatica-feminale.de/">Informatica Feminale</a> in Bremen to inspire more women to get into coding. Besides I produce audio podcasts for scientific purposes, e.g. for the <a target="_blank" class="fancy-link" href="http://berlinerkolleg.com/">Berlin Center for Cold War Studies</a> and I like <a class="fancy-link" target="_blank" href="http://www.ueberdiespree.de/texts">writing</a>. Currently I work as a full-time web developer with a focus on frontend technologies at <a target="_blank" class="fancy-link" href="https://www.iav.com/">IAV</a> in Berlin. Stacks I have worked with include &#149; HTML5 &#149; CSS3 &#149; JavaScript &#149; Bootstrap &#149; React &#149; AngularJS &#149; Python &#149; Flask &#149; nodeJs &#149; and others. Want to get in <a class="fancy-link" href="#contact">contact?</a></p>
+      <p class="mypar">In 2017 I finished a Master's degree in computer science from <a target="_blank" class="fancy-link" href="http://osmi.th-brandenburg.de/" rel="noreferrer">Brandenburg University of Applied Sciences</a> and have project experiences as a freelance web developer. For several years I have been working as a content and social media manager but have moved on to the programmer's world. Annually, I give talks for beginners in web development at <a target="_blank" class="fancy-link" href="https://www.informatica-feminale.de/" rel="noreferrer">Informatica Feminale</a> in Bremen to inspire more women to get into coding. Besides I produce audio podcasts for scientific purposes, e.g. for the <a target="_blank" class="fancy-link" href="http://berlinerkolleg.com/" rel="noreferrer">Berlin Center for Cold War Studies</a> and I like <a class="fancy-link" target="_blank" href="http://rike.dev" rel="noreferrer">writing</a>. Currently I work as a full-time web developer with a focus on frontend technologies at <a target="_blank" class="fancy-link" href="https://www.iav.com/" rel="noreferrer">IAV</a> in Berlin. Stacks I have worked with include &#149; HTML5 &#149; CSS3 &#149; JavaScript &#149; Bootstrap &#149; React &#149; AngularJS &#149; Python &#149; Flask &#149; nodeJs &#149; and others. Want to get in <a class="fancy-link" href="#contact">contact?</a></p>
           
           
           
@@ -151,18 +155,18 @@
         <img class="icon" src="images/icons/001-at-symbol-inside-a-circle.svg" alt="E-Mail me">
       </a>
 
-      <a target="_blank" href="https://github.com/gitfrosh/">
+      <a target="_blank" href="https://github.com/gitfrosh/" rel="noreferrer">
         <img class="icon" src="images/icons/004-circle.svg" alt="Github">
       </a>
 
-            <a target="_blank" href="http://www.ueberdiespree.de/texts/">
+            <a target="_blank" href="https:/rike.dev/">
         <img class="icon" src="images/icons/003-wordpress-logo.svg" alt="Wordpress">
       </a>
 
-                  <a target="_blank" href="https://www.instagram.com/ueberdiespree/">
+                  <a target="_blank" href="https://www.instagram.com/ueberdiespree/" rel="noreferrer">
         <img class="icon" src="images/icons/002-instagram-logo.svg" alt="Instagram">
       </a>
-                        <a target="_blank" href="https://www.xing.com/profile/Ulrike_Exner4">
+                        <a target="_blank" href="https://www.xing.com/profile/Ulrike_Exner4" rel="noreferrer">
         <img class="icon" src="images/icons/005-xing-icomoon.svg" alt="Xing">
       </a>
 

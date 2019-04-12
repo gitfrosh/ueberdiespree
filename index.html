@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Hi, my name is Ulrike Exner. I am a web developer from Berlin with a focus on frontend technologies.">
+    <meta name="author" content="Ulrike Exner">
+    <title>ueber » die » spree</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+    <!-- Custom fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Vollkorn" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/mithril/0.1.32/mithril.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $(document).ready(function() {
+                $(window).bind('scroll', function() {
+                    var navHeight = $(window).height() - 300;
+                    if ($(window).scrollTop() > navHeight) {
+                        $('nav').addClass('sticky');
+                    } else {
+                        $('nav').removeClass('sticky');
+                    }
+                });
+            });
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function() {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+
+  <div class="container-fluid">
+
+<section class="intro">
+
+	<div class="header">
+		<div class="headerpic col-md-12">
+ <nav class="navbar navbar-expand">
+         <div class="container">
+
+        
+               <ul class="navbar-nav ml-auto">
+			      <li class="nav-item">
+                     <a class="nav-link">ueberdiespree.de</a>  
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#about">about</a>
+                  </li>
+				  <li class="nav-item">
+                     <a class="nav-link" href="#contact">contact</a>
+                  </li>
+               </ul>
+           
+         </div>
+      </nav>
+		</div>
+	</div>
+		<div class="row white intro">
+		<div class="col-md-12">
+			<h2>Hi, my name is Ulrike Exner.</h2>
+                  <p class="mypar">I am a web developer from Berlin.</p>
+				 
+				  
+				        <a href="#about" class="arrow-down">
+        <svg viewbox="0 4.9 70 35" style="enable-background: new 0 4.9 70 35;">
+          <polyline class="svg-stroke " points="59.7,9.8 35,34.5 10.3,9.8"/>
+        </svg>
+      </a>
+
+				  
+				  
+		</div>
+	</div>
+</section>	
+	
+<section id="about">	
+	
+	<div class="row grey">
+		<div class="col-md-12">
+
+			<h2 id="h2">What I do</h2>
+      <p class="mypar">In 2017 I finished a Master's degree in computer science from <a target="_blank" class="fancy-link" href="http://osmi.th-brandenburg.de/">Brandenburg University of Applied Sciences</a> and have project experiences as a freelance web developer. For several years I have been working as a content and social media manager but have moved on to the programmer's world. Annually, I give talks for beginners in web development at <a target="_blank" class="fancy-link" href="https://www.informatica-feminale.de/">Informatica Feminale</a> in Bremen to inspire more women to get into coding. Besides I produce audio podcasts for scientific purposes, e.g. for the <a target="_blank" class="fancy-link" href="http://berlinerkolleg.com/">Berlin Center for Cold War Studies</a> and I like <a class="fancy-link" target="_blank" href="http://www.ueberdiespree.de/texts">writing</a>. Currently I work as a full-time web developer with a focus on frontend technologies at <a target="_blank" class="fancy-link" href="https://www.iav.com/">IAV</a> in Berlin. Stacks I have worked with include &#149; HTML5 &#149; CSS3 &#149; JavaScript &#149; Bootstrap &#149; React &#149; AngularJS &#149; Python &#149; Flask &#149; nodeJs &#149; and others. Want to get in <a class="fancy-link" href="#contact">contact?</a></p>
+          
+          
+          
+                
+                <p class="mypar"> </p>
+
+	
+			</div>
+
+	</div>
+	<div class="row white">
+
+
+		<div class="col-md-12">
+
+		
+							  
+				        <a href="#contact" class="arrow-down">
+        <svg viewbox="0 4.9 70 35" style="enable-background: new 0 4.9 70 35;">
+          <polyline class="svg-stroke " points="59.7,9.8 35,34.5 10.3,9.8"/>
+        </svg>
+      </a>
+
+	
+		</div>
+	</div>
+</section>	
+
+
+<section id="contact">	
+
+		<div class="row grey">
+<div class="col-md-12 icondiv">
+
+			<h2 id="h2">Contact</h2>
+			<p class="mypar">If you'd like to connect, do not hesitate to drop a line to <a class="fancy-link" href="mailto:hello@ueberdiespree.de">hello@ueberdiespree.de</a>. Organizations and meetups I support or visit regularely include <a target="_blank" href="https://www.womenwhocode.com/berlin" class="fancy-link">Women who code Berlin</a>, <a target="_blank" class="fancy-link" href="http://berlin.pyladies.com/">Pyladies Berlin</a>, <a target="_blank" href="http://www.geekettes.io/cities/berlin/" class="fancy-link"> Geekettes Berlin</a>, <a target="_blank" href="https://www.informatica-feminale.de/" class="fancy-link">Informatica Feminale Bremen</a> and more.<br><br></p>
+<p>
+				<a target="_blank" href="mailto:hello@ueberdiespree.de">
+        <img class="icon" src="images/icons/001-at-symbol-inside-a-circle.svg" alt="E-Mail me">
+      </a>
+
+      <a target="_blank" href="https://github.com/gitfrosh/">
+        <img class="icon" src="images/icons/004-circle.svg" alt="Github">
+      </a>
+
+            <a target="_blank" href="http://www.ueberdiespree.de/texts/">
+        <img class="icon" src="images/icons/003-wordpress-logo.svg" alt="Wordpress">
+      </a>
+
+                  <a target="_blank" href="https://www.instagram.com/ueberdiespree/">
+        <img class="icon" src="images/icons/002-instagram-logo.svg" alt="Instagram">
+      </a>
+                        <a target="_blank" href="https://www.xing.com/profile/Ulrike_Exner4">
+        <img class="icon" src="images/icons/005-xing-icomoon.svg" alt="Xing">
+      </a>
+
+      </p>
+		</div>
+
+
+	</div>
+</section>
+	
+		     <!-- Footer -->
+      <footer class="py-5 bg-dark">
+         <div class="container">
+            <p class="m-0 text-center text-white">&copy; 2017 All rights reserved. | <a href="impressum.html">Impressum</a></p>
+
+         </div>
+         <!-- /.container -->
+      </footer>
+</div>
+  
+</body>
+
+</html>

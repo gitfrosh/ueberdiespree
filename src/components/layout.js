@@ -8,9 +8,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
-
-// import Header from "./header"
-// import "./layout.css"
 import "../lib/bootstrap.min.css"
 import "../lib/style.css"
 

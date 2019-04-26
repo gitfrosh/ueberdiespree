@@ -11,7 +11,16 @@ import mail from "../images/icons/001-at-symbol-inside-a-circle.svg"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO
+      title="Home"
+      keywords={[
+        `web development`,
+        `frontend`,
+        `react`,
+        `Ulrike Exner`,
+        `Berlin`,
+      ]}
+    />
     <>
       <section className="intro">
         <div className="header">
@@ -46,9 +55,12 @@ const IndexPage = () => (
         <div className="row white intro">
           <div className="col-md-12">
             <h2>Hi, my name is Ulrike Exner.</h2>
-            <p className="mypar">I am a web developer from &#10084; Berlin.</p>
+            <p className="mypar">
+              I am a web developer from <em>&#10084;</em> Berlin.
+            </p>
             <AnchorLink className="arrow-down" href="#about">
               <svg
+                alt="about"
                 viewBox="0 4.9 70 35"
                 style={{ enableBackground: "new 0 4.9 70 35" }}
               >
@@ -65,10 +77,10 @@ const IndexPage = () => (
       <section id="about">
         <div className="row grey">
           <div className="col-md-12">
-            <h2 id="h2">What I do</h2>
+            <h2>What I do</h2>
             <p className="mypar">
-              In 2017 I finished a Master's degree in computer science from
-              &nbsp;
+              In 2017 I finished a Master's degree in{" "}
+              <span className="marker">computer science</span> from &nbsp;
               <a
                 target="_blank"
                 className="fancy-link"
@@ -77,10 +89,11 @@ const IndexPage = () => (
               >
                 Brandenburg University of Applied Sciences
               </a>
-              &nbsp; and I have project experience as a freelance web developer.
-              For several years I have been working as a content and social
-              media manager but have moved on to coding. Annually, I give talks
-              for beginners in web development at &nbsp;
+              &nbsp; and I have project experience as a freelance{" "}
+              <span className="marker">web developer</span>. For several years I
+              have been working as a content and social media manager but have
+              moved on to coding. Annually, I give talks for beginners in web
+              development at &nbsp;
               <a
                 target="_blank"
                 className="fancy-link"
@@ -89,9 +102,9 @@ const IndexPage = () => (
               >
                 Informatica Feminale
               </a>{" "}
-              &nbsp; in Bremen to inspire more women to get into web
-              development. Sometimes I produce audio podcasts for scientific
-              purposes and I like &nbsp;
+              &nbsp; in Bremen to <span className="marker">inspire</span> more
+              women to get into web development. Sometimes I produce audio
+              podcasts for scientific purposes and I like &nbsp;
               <a
                 className="fancy-link"
                 target="_blank"
@@ -110,11 +123,11 @@ const IndexPage = () => (
               >
                 IAV
               </a>
-              &nbsp; in Berlin. Technologies I have worked with include &#149;
-              JavaScript &#149; Node.js &#149; HTML5 &#149; CSS3 &#149;
-              Bootstrap &#149; React.js &#149; Vue.js &#149; GraphQL &#149;
-              Angular &#149; Python &#149; Flask &#149; PostgreSQL &#149;
-              MongoDB and others. Want to get in &nbsp;
+              &nbsp; in <span className="marker">Berlin</span>. Technologies I
+              have worked with include &#149; JavaScript &#149; Node.js &#149;
+              HTML5 &#149; CSS3 &#149; Bootstrap &#149; React.js &#149; Vue.js
+              &#149; GraphQL &#149; Angular &#149; Python &#149; Flask &#149;
+              PostgreSQL &#149; MongoDB and others. Want to get in &nbsp;
               <a className="fancy-link" href="#contact">
                 contact?
               </a>
@@ -127,6 +140,7 @@ const IndexPage = () => (
           <div className="col-md-12">
             <AnchorLink className="arrow-down" href="#contact">
               <svg
+                alt="contact"
                 viewBox="0 4.9 70 35"
                 style={{ enableBackground: "new 0 4.9 70 35" }}
               >

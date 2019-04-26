@@ -2,14 +2,22 @@
  * Made with Bootstrap!
  */
 
-@import url("https://fonts.googleapis.com/css?family=Oswald|Vollkorn");
+@import url("https://fonts.googleapis.com/css?family=Vollkorn");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+@font-face {
+  font-family: "Arvo";
+  font-display: auto;
+  src: local("Arvo"),
+    url(https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2)
+      format("woff2");
+}
 
 html,
 body,
 main {
   margin: 0;
   height: 100%;
+
   font-family: "Open Sans Condensed", sans-serif;
   overflow: visible;
   background: #d6d6d6;
@@ -98,6 +106,10 @@ svg {
   background-color: #ececec;
 }
 
+.marker {
+  font-style: oblique;
+}
+
 a:link,
 a:visited,
 a:active {
@@ -105,7 +117,13 @@ a:active {
   white-space: normal;
   outline: none;
   cursor: pointer;
-  color: #959595;
+  color: #c94c4c;
+}
+
+em {
+  text-decoration: none;
+  font-style: normal;
+  color: #c94c4c;
 }
 
 .fancy-link {

@@ -124,10 +124,10 @@ const IndexPage = () => (
                 IAV
               </a>
               &nbsp; in <span className="marker">Berlin</span>. Technologies I
-              have worked with include &#149; JavaScript &#149; Node.js &#149;
-              HTML5 &#149; CSS3 &#149; Bootstrap &#149; React.js &#149; Vue.js
-              &#149; GraphQL &#149; Angular &#149; Python &#149; Flask &#149;
-              PostgreSQL &#149; MongoDB and others. Want to get in &nbsp;
+              have worked with include &middot; JavaScript &middot; Node.js &middot;
+              HTML5 &middot; CSS3 &middot; Bootstrap &middot; React.js &middot; Vue.js
+              &middot; GraphQL &middot; Angular &middot; Python &middot; Flask &middot;
+              PostgreSQL &middot; MongoDB and others. Want to get in &nbsp;
               <a className="fancy-link" href="#contact">
                 contact?
               </a>

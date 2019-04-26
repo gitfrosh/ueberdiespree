@@ -224,7 +224,7 @@ const IndexPage = () => (
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https:/rike.dev/"
+                href="https://rike.dev/"
               >
                 <img className="icon" src={wordpress} alt="Wordpress" />
               </a>

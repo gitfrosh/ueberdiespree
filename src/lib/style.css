@@ -141,7 +141,6 @@ a:hover {
   background: url("../images/berlin.jpg") no-repeat center center scroll;
   background-color: #000;
   height: 100%;
-  margin-top: 65px;
   border-bottom-color: red;
 }
 
@@ -170,6 +169,7 @@ section {
   height: 30%;
   background: #fff;
   margin: 0px auto;
+  margin-top: -50px;
   padding: 0px 0px 0px 5px;
 }
 

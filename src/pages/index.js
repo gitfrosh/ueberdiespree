@@ -25,225 +25,48 @@ const IndexPage = () => (
       <section className="intro">
         <div className="header">
           <div className="headerpic col-md-12">
-            <nav className="navbar navbar-expand">
-              <div className="container">
-                <ul className="navbar-nav ml-auto">
-                  <li className="nav-item">
-                    <a
-                      style={{ color: "unset" }}
-                      href="https://www.ueberdiespree.de"
-                      className="nav-link"
-                    >
-                      ueberdiespree.de
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <AnchorLink className="nav-link" href="#about">
-                      about
-                    </AnchorLink>
-                  </li>
-                  <li className="nav-item">
-                    <AnchorLink className="nav-link" href="#contact">
-                      contact
-                    </AnchorLink>
-                  </li>
-                </ul>
-              </div>
-            </nav>
           </div>
         </div>
         <div className="row white intro">
           <div className="col-md-12">
-            <h2>Hi, my name is Ulrike Exner.</h2>
+            <h2><em>ueberdiespree</em>.de</h2>
             <p className="mypar">
-              I am a web developer from <em>&#10084;</em> Berlin.
-            </p>
-            <AnchorLink className="arrow-down" href="#about">
-              <svg
-                alt="about"
-                viewBox="0 4.9 70 35"
-                style={{ enableBackground: "new 0 4.9 70 35" }}
-              >
-                <polyline
-                  className="svg-stroke "
-                  points="59.7,9.8 35,34.5 10.3,9.8"
-                />
-              </svg>
-            </AnchorLink>
-          </div>
-        </div>
-      </section>
-
-      <section id="about">
-        <div className="row grey">
-          <div className="col-md-12">
-            <h2>What I do</h2>
-            <p className="mypar">
-              In 2017 I finished a Master's degree in{" "}
-              <span className="marker">computer science</span> from &nbsp;
-              <a
+              is the digital home of ulrike (or just <em>rike</em>) and you can find me here: <br />
+              #<a
                 target="_blank"
-                className="fancy-link"
-                href="http://osmi.th-brandenburg.de/"
+                href="https://rike.dev/"
                 rel="noopener noreferrer"
               >
-                Brandenburg University of Applied Sciences
+                rike.dev
               </a>
-              &nbsp; and I have project experience as a freelance{" "}
-              <span className="marker">web developer</span>. For several years I
-              have been working as a content and social media manager but have
-              moved on to coding. Annually, I give talks for beginners in web
-              development at &nbsp;
-              <a
-                target="_blank"
-                className="fancy-link"
-                href="https://www.informatica-feminale.de/"
-                rel="noopener noreferrer"
-              >
-                Informatica Feminale
-              </a>{" "}
-              &nbsp; in Bremen to <span className="marker">inspire</span> more
-              women to get into web development. Sometimes I produce audio
-              podcasts for scientific purposes and I like &nbsp;
-              <a
-                className="fancy-link"
-                target="_blank"
-                href="https://rike.dev"
-                rel="noopener noreferrer"
-              >
-                writing
-              </a>
-              . Currently I work as a full-time web developer with a focus on
-              frontend technologies at&nbsp;
-              <a
-                target="_blank"
-                className="fancy-link"
-                href="https://www.iav.com/"
-                rel="noopener noreferrer"
-              >
-                IAV
-              </a>
-              &nbsp; in <span className="marker">Berlin</span>. Technologies I
-              have worked with include &middot; JavaScript &middot; Node.js &middot;
-              HTML5 &middot; CSS3 &middot; Bootstrap &middot; React.js &middot; Vue.js
-              &middot; GraphQL &middot; Angular &middot; Python &middot; Flask &middot;
-              PostgreSQL &middot; MongoDB and others. Want to get in &nbsp;
-              <a className="fancy-link" href="#contact">
-                contact?
-              </a>
-            </p>
-
-            <p className="mypar" />
-          </div>
-        </div>
-        <div className="row white">
-          <div className="col-md-12">
-            <AnchorLink className="arrow-down" href="#contact">
-              <svg
-                alt="contact"
-                viewBox="0 4.9 70 35"
-                style={{ enableBackground: "new 0 4.9 70 35" }}
-              >
-                <polyline
-                  className="svg-stroke "
-                  points="59.7,9.8 35,34.5 10.3,9.8"
-                />
-              </svg>
-            </AnchorLink>
-          </div>
-        </div>
-      </section>
-
-      <section id="contact">
-        <div className="row grey">
-          <div className="col-md-12 icondiv">
-            <h2 id="h2">Contact</h2>
-            <p className="mypar">
-              If you'd like to connect, do not hesitate to drop a line to &nbsp;
-              <a className="fancy-link" href="mailto:hello@ueberdiespree.de">
-                hello@ueberdiespree.de
-              </a>
-              . Organizations and meetups I support or visit regularely
-              include&nbsp;
-              <a
-                target="_blank"
-                href="https://www.womenwhocode.com/berlin"
-                className="fancy-link"
-                rel="noopener noreferrer"
-              >
-                Women who code Berlin
-              </a>
-              , &nbsp;
-              <a
-                target="_blank"
-                className="fancy-link"
-                href="http://berlin.pyladies.com/"
-                rel="noopener noreferrer"
-              >
-                Pyladies Berlin
-              </a>
-              , &nbsp;
-              <a
-                target="_blank"
-                href="http://www.geekettes.io/cities/berlin/"
-                className="fancy-link"
-                rel="noopener noreferrer"
-              >
-                Geekettes Berlin
-              </a>
-              , &nbsp;
-              <a
-                target="_blank"
-                href="https://www.informatica-feminale.de/"
-                className="fancy-link"
-                rel="noopener noreferrer"
-              >
-                Informatica Feminale Bremen
-              </a>
-              &nbsp; and more.
-              <br />
-              <br />
-            </p>
-            <p>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="mailto:hello@ueberdiespree.de"
-              >
-                <img className="icon" src={mail} alt="E-Mail me" />
-              </a>
-
-              <a
+              {" "}
+             #<a
                 target="_blank"
                 href="https://github.com/gitfrosh/"
                 rel="noopener noreferrer"
               >
-                <img className="icon" src={github} alt="Github" />
+                github
               </a>
+              {" "}
 
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://rike.dev/"
-              >
-                <img className="icon" src={wordpress} alt="Wordpress" />
-              </a>
-
-              <a
+              #<a
                 target="_blank"
                 href="https://www.instagram.com/ueberdiespree/"
                 rel="noopener noreferrer"
               >
-                <img className="icon" src={instagram} alt="Instagram" />
+                instagram
               </a>
-              <a
+              {" "}
+
+              #<a
                 target="_blank"
                 href="https://www.xing.com/profile/Ulrike_Exner4"
                 rel="noopener noreferrer"
               >
-                <img className="icon" src={xing} alt="Xing" />
+                xing
               </a>
             </p>
+           
           </div>
         </div>
       </section>
